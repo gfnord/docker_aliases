@@ -29,10 +29,10 @@ Where $1 is the name of the container and the $2 is the shell
 If $2 is not provided 'bash' will be assumed as default
 
 ```bash
-        $ dockerexec mysql_container_1
+$ dockerexec mysql_container_1
 ```
 ```bash
-        $ dockerexec mysql_container_1 bash
+$ dockerexec mysql_container_1 bash
 ```
 
 Credits to **https://github.com/DiSiqueira**
