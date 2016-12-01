@@ -25,8 +25,11 @@ Well, stops all containers.
 
 ### dockerexec <name of container> <shell>
 This is cool, helps you get a shell in a container.
+
 Where $1 is the name of the container and the $2 is the shell
-If $2 is not provided 'bash' will be assumed as default
+
+
+**Note:** If $2 is not provided 'bash' will be assumed as default
 
 ```bash
 $ dockerexec mysql_container_1
