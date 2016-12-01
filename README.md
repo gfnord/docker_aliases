@@ -25,7 +25,6 @@ Well, stops all containers.
 
 ### dockerexec <name of container> <shell>
 This is cool, helps you get a shell in a container.
-
 Where $1 is the name of the container and the $2 is the shell
 
 
