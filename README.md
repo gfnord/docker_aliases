@@ -1,15 +1,15 @@
 # docker_aliases
 A list of nice bash functions to save time while using docker.
 
-Add this content on your ~/.bash_profile, ~/.zshrc.local or similar:
-
+Add this content on your ~/.bash_profile, ~/.zshrc.local or simila
+```
 dockerstop() { docker stop $(docker ps -a -q) }
 dockerrm() { docker rm $(docker ps -a -q) }
 dockerrmi() { docker rmi $(docker images -q) -f }
 dockerclean() { dockerstop; dockerrm; dockerrmi;}
 dockerexec() {docker exec -it $(docker ps -qa -f "name=$1_1") $2 }
-
-## What each command does?
+```
+## What does each command?
 
 ### dockerstop
 Well, stops all containers.
